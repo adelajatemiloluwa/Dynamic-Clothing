@@ -18,8 +18,8 @@ const Testimonial = () => {
                     <div className="user-info">
                         <img src={user1} alt="" />
                         <div>
-                            <h3>Idowu Racheal</h3>
-                            <span>Educity, Nigeria.</span>
+                            <h3>Carson James</h3>
+                            <span>Educity, Philipinnes</span>
                         </div>
                     </div>
                     <p>Choosing to pursue my degree at Educity was one of
@@ -35,13 +35,14 @@ const Testimonial = () => {
                         <img src={user2} alt="" />
                         <div>
                             <h3>Hughes White</h3>
-                            <span>Edusity, Nigeria.</span>
+                            <span>Edusity, Philipinnes.</span>
                         </div>
                     </div>
                     <p>Choosing to pursue my degree at Educity was one of
-                        the best decision i've ever made.The supportive community,
-                    state of life art facilities and commitment to academic
-                    excellence have truly exceeded my expectations </p>
+                        the best decision i've ever made.It's a very good 
+                        school if you want to be great and good in life.
+                        The supportive community,state of life art facilities
+                         and commitment to academic excellence have truly exceeded my expectations </p>
                 </div>
             </li>
             <li>
@@ -50,7 +51,7 @@ const Testimonial = () => {
                         <img src={user3} alt="" />
                         <div>
                             <h3>Scott Will</h3>
-                            <span>Brunnel, Nigeria</span>
+                            <span>Brunnel, Philipinnes</span>
                         </div>
                     </div>
                     <p>Choosing to pursue my degree at Brunner was one of

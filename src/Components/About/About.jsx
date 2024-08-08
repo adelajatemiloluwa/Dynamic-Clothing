@@ -11,18 +11,18 @@ const About = () => {
        
       </div>
       <div className="about-right">
-        <h3>ABOUT UNIVERSITY</h3>
+        <h3>ABOUT SCHOOL</h3>
         <h2>Nurturing Tomorrow's leader Today</h2>
         <p>Embark on a transformative educational journey with our 
-        university's comprehensive education programs. Our cutting-edge 
-        curriculum is desingned to empower students with the knowledge,
+        school's comprehensive education programs. Our cutting-edge 
+        curriculum is designed to empower students with the knowledge,
         skills, and experience needed to excel in the dynamic fields of
         education. </p>
         <p>With a focus on innovation, hands-on learning, and personalized
-        mentorship, our programs prepare aspiring educators to make a 
+        mentorship, our teaching prepare aspiring educators to make a 
         meaningful impact in classroom, schools, and communities. </p>
-        <p>Whether you aspire to become a teacher, administrator,
-        counsellor, or educational leader, our diverse range of programs
+        <p>Whether you aspire to become a Teacher, Administrator,
+        Counsellor,Software Engineer, Doctor, Nurse or Educational Leader, our diverse range of teaching
         offers the perfect pathway to achieve your goals and unlock your 
         full potential in shaning the future of education. </p>
       </div>

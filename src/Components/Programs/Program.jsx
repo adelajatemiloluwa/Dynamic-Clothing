@@ -14,21 +14,21 @@ const Program = () => {
             <img src={program1} alt="" />
             <div className="caption">
                 <img src={programicon1} alt="" />
-                <p>Graduation Degree</p>
+                <p>Elementary School</p>
             </div>
         </div>
         <div className="program">
             <img src={program2} alt="" />
             <div className="caption">
                 <img src={programicon2} alt="" />
-                <p>Masters Degree</p>
+                <p>Middle School</p>
             </div>
         </div>
         <div className="program">
             <img src={program3} alt="" />
             <div className="caption">
                 <img src={programicon3} alt="" />
-                <p> Post Graduation</p>
+                <p> High School</p>
             </div>
         </div>
       
