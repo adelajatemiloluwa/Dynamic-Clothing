@@ -18,12 +18,12 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className="container">
-        <Title Subtitle='OUR PROGRAM' title= 'What we offer'/>
+        <Title Subtitle='OUR COLLECTIONS' title= 'What we have'/>
             <Program/>
             <About/>
-            <Title Subtitle='Gallery' title= 'Campus Photos'/>
+            <Title Subtitle='THE COLLECTIONS' title= 'Explore our Designs'/>
             <Campus/>
-            <Title Subtitle='Testimonial' title= 'What Student Says'/>
+            <Title Subtitle='FASHION FEEDBACKS' title= 'What Our Clients Are Saying'/>
             <Testimonial/>
             <Title Subtitle='Contact Us' title= 'Get in Touch'/>
             <Contact/>

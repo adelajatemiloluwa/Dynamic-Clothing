@@ -1,4 +1,4 @@
-.testmonial{
+.testimonial{
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
@@ -12,7 +12,7 @@
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #212ea0;
+    background: black;
 }
 .darkarrrow{
     right: auto;

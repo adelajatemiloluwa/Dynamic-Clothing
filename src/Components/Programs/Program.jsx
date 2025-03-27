@@ -1,8 +1,8 @@
 import React from 'react'
 import './Program.css'
-import program1 from '../../assets/program1.jpeg'
-import program2 from '../../assets/program2.jpeg'
-import program3 from '../../assets/program3.jpeg'
+import program1 from '../../assets/program1.jpg'
+import program2 from '../../assets/program2.jpg'
+import program3 from '../../assets/program3.jpg'
 import programicon1 from '../../assets/programicon1.jpeg'
 import programicon2 from '../../assets/programicon2.jpeg'
 import programicon3 from '../../assets/programicon3.jpeg'
@@ -14,21 +14,21 @@ const Program = () => {
             <img src={program1} alt="" />
             <div className="caption">
                 <img src={programicon1} alt="" />
-                <p>Elementary School</p>
+                <p>Male Wears</p>
             </div>
         </div>
         <div className="program">
             <img src={program2} alt="" />
             <div className="caption">
                 <img src={programicon2} alt="" />
-                <p>Middle School</p>
+                <p>Traditonal Wears</p>
             </div>
         </div>
         <div className="program">
             <img src={program3} alt="" />
             <div className="caption">
                 <img src={programicon3} alt="" />
-                <p> High School</p>
+                <p>Stylish Wears</p>
             </div>
         </div>
       

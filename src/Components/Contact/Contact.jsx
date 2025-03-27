@@ -15,7 +15,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "fe35829e-ac49-4d3a-a6a4-b9dc145aa384");
+    formData.append("access_key", "33a6a43e-7f1b-4b57-b6b0-fb216a72c8cb");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -40,11 +40,11 @@ const Contact = () => {
             <p>Feel free to reach out through contact form and find our contact
             information below. Your feedback, questions, and suggestions are 
             important to us as we strive to provide exceptional service to our 
-            university community. </p>
+            customers. </p>
             <ul>
-                <li> <img src={mailicon} alt="" />Contact@adelajawaheed.dev or adelajawaheed36@gmail.com</li>
-                <li> <img src={phoneicon} alt="" />07014013006</li>
-                <li> <img src={locationicon} alt="" />66 Ilishan, Ogun state<br/> MA 0921, Nigeria</li>
+                <li> <img src={mailicon} alt="" />Contact@adelajarauf36@gmail.com</li>
+                <li> <img src={phoneicon} alt="" />08161213325</li>
+                <li> <img src={locationicon} alt="" />Ijebu-ode<br/>Ogun State, Nigeria</li>
 
             </ul>
         </div>
@@ -55,6 +55,8 @@ const Contact = () => {
                  required/>
                  <label>Phone number</label>
                  <input type= "tel" name='phone' placeholder='Enter your mobile number' required/>
+                 <label>Email</label>
+                 <input type= "tel" name='email' placeholder='Enter your email' required/>
                  <label>Write your message here</label>
                  <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
                  <button type='submit' className='btn dark-btn'>Submit now <img src={dark_arrow} alt="" /></button>

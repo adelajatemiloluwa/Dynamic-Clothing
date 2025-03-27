@@ -6,9 +6,8 @@ const Hero = () => {
   return (
     <div className='hero container' id='hero'>
       <div className="hero-text">
-      <h1>We ensure better education for a better world </h1>
-      <p>Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experience needed to excel in the dynamic field of education</p>
-      <button className='btn'> Explore more <img src={dark_arrow} alt="dark_arrow" width={"5%"} /></button>
+      <h1> Elevate your style with timeless designs that speak to your individuality </h1>
+      <p>Step into a world where fashion meets artistry. Our collections are crafted to inspire confidence, celebrate individuality, and redefine elegance. Explore timeless designs that tell your story—because true style is more than clothing, it’s an expression of you.</p>
      </div>
     </div>
   )

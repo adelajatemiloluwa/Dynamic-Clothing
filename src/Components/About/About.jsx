@@ -1,30 +1,21 @@
 import React from 'react'
 import './About.css'
-import thee from '../../assets/thee.jpeg'
+import thee from '../../assets/thee.jpg'
 
 
 const About = () => {
   return (
     <div className='about' id="about">
       <div className="about-left">
-        <img src={thee} alt="" className='thee' />
+      <img src={thee} alt="" className='thee' />
        
       </div>
       <div className="about-right">
-        <h3>ABOUT SCHOOL</h3>
-        <h2>Nurturing Tomorrow's leader Today</h2>
-        <p>Embark on a transformative educational journey with our 
-        school's comprehensive education programs. Our cutting-edge 
-        curriculum is designed to empower students with the knowledge,
-        skills, and experience needed to excel in the dynamic fields of
-        education. </p>
-        <p>With a focus on innovation, hands-on learning, and personalized
-        mentorship, our teaching prepare aspiring educators to make a 
-        meaningful impact in classroom, schools, and communities. </p>
-        <p>Whether you aspire to become a Teacher, Administrator,
-        Counsellor,Software Engineer, Doctor, Nurse or Educational Leader, our diverse range of teaching
-        offers the perfect pathway to achieve your goals and unlock your 
-        full potential in shaning the future of education. </p>
+        <h3>ABOUT DYNAMIC CLOTHING</h3>
+        <h2>Discover luxury, elegance, and innovation in every piece.</h2>
+        <p>Dynamic Clothings is your destination for fashion that evolves with you. We blend bold innovation with timeless elegance, creating pieces that are as versatile as they are stylish. </p>
+        <p>Our collections are designed to empower your individuality, offering clothing that adapts to your lifestyle, whether you're making a statement or embracing everyday comfort. From cutting-edge trends to classic sophistication, every piece tells a story of confidence and creativity.</p>
+        <p>At Dynamic Clothings, we believe fashion is more than just clothing—it's an expression of who you are. Step into a world where style meets purpose, and redefine what it means to wear your best self.</p>
       </div>
     </div>
   )
