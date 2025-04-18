@@ -200,7 +200,8 @@ const ReferralForm = () => {
               "Year Tutor",
               "Form Tutor",
               "House Parent",
-              "Subject Teacher"
+              "Subject Teacher",
+              "Mentor"
             ].map((source) => (
               <label key={source}>
                 <input 
@@ -426,7 +427,7 @@ const ReferralForm = () => {
               onChange={handleInputChange}
               rows={2}
               className="form-textarea"
-            />
+            /> 
           </div>
         </div>
          {/* Referrer's Signature and Date */}
