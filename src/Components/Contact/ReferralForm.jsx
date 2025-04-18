@@ -429,6 +429,31 @@ const ReferralForm = () => {
             />
           </div>
         </div>
+         {/* Referrer's Signature and Date */}
+         <div className="form-section">
+          <div className="form-row">
+            <div className="form-group">
+              <label>Referrer's Signature*</label>
+              <input 
+                type="text" 
+                name="signature" 
+                value={formData.signature} 
+                onChange={handleInputChange} 
+                required 
+              />
+            </div>
+            <div className="form-group">
+              <label>Date*</label>
+              <input 
+                type="date" 
+                name="date" 
+                value={formData.date} 
+                onChange={handleInputChange} 
+                required 
+              />
+            </div>
+          </div>
+        </div>
 
         {/* Student's Comment */}
         <div className="form-section">
@@ -495,31 +520,7 @@ const ReferralForm = () => {
           </div>
         </div>
 
-        {/* Referrer's Signature and Date */}
-        <div className="form-section">
-          <div className="form-row">
-            <div className="form-group">
-              <label>Referrer's Signature*</label>
-              <input 
-                type="text" 
-                name="signature" 
-                value={formData.signature} 
-                onChange={handleInputChange} 
-                required 
-              />
-            </div>
-            <div className="form-group">
-              <label>Date*</label>
-              <input 
-                type="date" 
-                name="date" 
-                value={formData.date} 
-                onChange={handleInputChange} 
-                required 
-              />
-            </div>
-          </div>
-        </div>
+       
 
         <div className="form-actions">
           <button type="submit" className="submit-button">Submit Referral</button>
