@@ -49,7 +49,7 @@ const ReferralForm = () => {
     });
 
     // Add Web3Forms access key
-    formDataToSend.append("access_key", "c29d631c-063d-4ecb-b6f4-9f9b1840ef12");
+    formDataToSend.append("access_key", "99c3f306-fb0d-44cd-80b8-49f740043d4a");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
